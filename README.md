@@ -1,2 +1,3 @@
-# js-border-radius
-Border-radius Previewer
+# Border-radius Previewer
+Estudo de JS.<br> 
+Inspirado nas ideias do Florin Pop https://github.com/florinpop17/app-ideas
