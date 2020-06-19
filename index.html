@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-radius Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Border-radius Previewer</h1>
+    </header>
+    <section>
+        <div id="leftTop">
+            <input type="number" class="numero" name="leftTop" id="leftTop" size="5" onchange="alterar(this.value, 'LT')">
+        </div>
+        <div id="rightTop">
+            <input type="number" class="numero" name="rightTop" id="rightTop" onchange="alterar(this.value, 'RT')">
+        </div>
+        <div id="leftBottom">
+            <input type="number" class="numero" name="leftBottom" id="leftBottom" onchange="alterar(this.value, 'LB')">
+        </div>
+        <div id="rightBottom">
+            <input type="number" class="numero" name="rightBottom" id="rightBottom" onchange="alterar(this.value, 'RB')">
+        </div>
+        <div id="borda">
+
+        </div>
+        <div id="resultado">
+            <input type="text" name="campo" id="campo">
+            <button onclick="copiar()">Copiar</button>
+        </div>        
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>    
+</body>
+</html>

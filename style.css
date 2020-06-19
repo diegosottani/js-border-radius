@@ -1,0 +1,63 @@
+body{
+    background: #172a3a;
+}
+
+section{
+    width: 550px;
+    margin: 50px auto;
+    position: relative;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+div#borda{
+    background: grey;
+    padding: 16px;
+    width: 400px;
+    height: 400px;
+    margin: auto;    
+}
+
+div#resultado{
+    padding: 25px;
+    margin: auto; 
+    width: 250px;
+    height: 200px;
+}
+
+input.numero{
+    width: 50px;
+    height: 30px;
+    font-size: 22px;
+}
+
+/*
+div#leftTop{
+    margin-left: 0px;
+    margin-right: 100px;
+    background-color: green;
+}
+
+div#rightTop{
+    margin-right: 200px;
+    margin-right: 0px;
+    background-color: yellow;
+}
+
+div#leftBottom{
+    margin-right: 500px;
+    margin-bottom: 100px;
+    background-color: blue;    
+}
+
+div#rightBottom{
+    margin-left: 500px;
+    margin-top: 100px;
+    background-color: red;
+}
+*/
